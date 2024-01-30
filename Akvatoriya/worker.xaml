@@ -1,0 +1,20 @@
+﻿<Window x:Class="Akvatoriya.worker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Akvatoriya"
+        mc:Ignorable="d"
+        Title="worker" Height="450" Width="800">
+    <Grid>
+        <Label Content="введите бокс" HorizontalAlignment="Left" Margin="52,30,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="208,34,0,0" TextWrapping="Wrap" Text="бокс" VerticalAlignment="Top" Width="120"/>
+        <Label Content="1 заказ" HorizontalAlignment="Left" Margin="65,133,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="250,137,0,0" TextWrapping="Wrap" Text="в работе" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Label Content="2 заказ" HorizontalAlignment="Left" Margin="65,179,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="250,187,0,0" TextWrapping="Wrap" Text="выполнено" VerticalAlignment="Top" Width="120"/>
+        <Button Content="завершить смену" HorizontalAlignment="Left" Margin="644,371,0,0" VerticalAlignment="Top"/>
+        <Button Content="ввод" HorizontalAlignment="Left" Margin="361,32,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

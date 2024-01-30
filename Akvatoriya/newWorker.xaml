@@ -1,0 +1,20 @@
+﻿<Window x:Class="Akvatoriya.newWorker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Akvatoriya"
+        mc:Ignorable="d"
+        Title="newWorker" Height="450" Width="800">
+    <Grid>
+        <Label Content="добавить сотрудника" HorizontalAlignment="Left" Margin="349,57,0,0" VerticalAlignment="Top"/>
+        <Label Content="имя" HorizontalAlignment="Left" Margin="237,130,0,0" VerticalAlignment="Top"/>
+        <Label Content="табельный номер" HorizontalAlignment="Left" Margin="237,176,0,0" VerticalAlignment="Top"/>
+        <Label Content="номер телефона" HorizontalAlignment="Left" Margin="237,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.053,0.087"/>
+        <TextBox HorizontalAlignment="Left" Margin="454,134,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Name="TextBoxName"/>
+        <TextBox HorizontalAlignment="Left" Margin="454,180,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Name="TextBoxNumberTabel"/>
+        <TextBox HorizontalAlignment="Left" Margin="454,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="TextBoxNumberPhone"/>
+        <Button Content="добавить" HorizontalAlignment="Left" Margin="385,311,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Window>
